@@ -1,0 +1,851 @@
+{
+  "character": "billym2k",
+  "asset_count": 73,
+  "assets": [
+    {
+      "file": "head/head_base.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 519,
+        "h": 559
+      },
+      "tags": [
+        "head",
+        "base"
+      ]
+    },
+    {
+      "file": "head/muzzle_base.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 411,
+        "h": 230
+      },
+      "tags": [
+        "muzzle",
+        "base"
+      ]
+    },
+    {
+      "file": "ears/upright_left.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 184,
+        "h": 237
+      },
+      "tags": [
+        "ears",
+        "upright"
+      ]
+    },
+    {
+      "file": "ears/upright_right.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 194,
+        "h": 235
+      },
+      "tags": [
+        "ears",
+        "upright"
+      ]
+    },
+    {
+      "file": "ears/floppy_left.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 189,
+        "h": 167
+      },
+      "tags": [
+        "ears",
+        "floppy"
+      ]
+    },
+    {
+      "file": "ears/floppy_right.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 187,
+        "h": 171
+      },
+      "tags": [
+        "ears",
+        "floppy"
+      ]
+    },
+    {
+      "file": "ears/back_left.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 206,
+        "h": 154
+      },
+      "tags": [
+        "ears",
+        "back"
+      ]
+    },
+    {
+      "file": "ears/back_right.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 208,
+        "h": 151
+      },
+      "tags": [
+        "ears",
+        "back"
+      ]
+    },
+    {
+      "file": "accessories/glasses.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 701,
+        "h": 226
+      },
+      "tags": [
+        "accessory",
+        "glasses"
+      ]
+    },
+    {
+      "file": "accessories/hoodie_collar.png",
+      "source": "shiba_inu_character_asset_sheet.png",
+      "size": {
+        "w": 500,
+        "h": 291
+      },
+      "tags": [
+        "accessory",
+        "hoodie"
+      ]
+    },
+    {
+      "file": "eyes/neutral.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 650,
+        "h": 294
+      },
+      "tags": [
+        "eyes",
+        "neutral"
+      ]
+    },
+    {
+      "file": "eyes/focused.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 649,
+        "h": 278
+      },
+      "tags": [
+        "eyes",
+        "focused"
+      ]
+    },
+    {
+      "file": "eyes/angry.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 651,
+        "h": 265
+      },
+      "tags": [
+        "eyes",
+        "angry"
+      ]
+    },
+    {
+      "file": "eyes/sleepy.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 646,
+        "h": 257
+      },
+      "tags": [
+        "eyes",
+        "sleepy"
+      ]
+    },
+    {
+      "file": "eyes/hit_bruised.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 651,
+        "h": 284
+      },
+      "tags": [
+        "eyes",
+        "hit_bruised"
+      ]
+    },
+    {
+      "file": "eyes/ko_dead.png",
+      "source": "shiba_inu_glasses_expression_sheet.png",
+      "size": {
+        "w": 650,
+        "h": 254
+      },
+      "tags": [
+        "eyes",
+        "ko_dead"
+      ]
+    },
+    {
+      "file": "mouth/neutral.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 450,
+        "h": 307
+      },
+      "tags": [
+        "mouth",
+        "neutral"
+      ]
+    },
+    {
+      "file": "mouth/smile.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 480,
+        "h": 308
+      },
+      "tags": [
+        "mouth",
+        "smile"
+      ]
+    },
+    {
+      "file": "mouth/talk.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 468,
+        "h": 310
+      },
+      "tags": [
+        "mouth",
+        "talk"
+      ]
+    },
+    {
+      "file": "mouth/shout.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 450,
+        "h": 315
+      },
+      "tags": [
+        "mouth",
+        "shout"
+      ]
+    },
+    {
+      "file": "mouth/grimace.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 480,
+        "h": 315
+      },
+      "tags": [
+        "mouth",
+        "grimace"
+      ]
+    },
+    {
+      "file": "mouth/tongue_out.png",
+      "source": "shiba_inu_muzzle_expression_spritesheet.png",
+      "size": {
+        "w": 468,
+        "h": 315
+      },
+      "tags": [
+        "mouth",
+        "tongue_out"
+      ]
+    },
+    {
+      "file": "torso/front.png",
+      "source": "headless_shiba_hoodie_sprite_sheet.png",
+      "size": {
+        "w": 500,
+        "h": 546
+      },
+      "tags": [
+        "torso",
+        "front"
+      ]
+    },
+    {
+      "file": "torso/three_quarter.png",
+      "source": "headless_shiba_hoodie_sprite_sheet.png",
+      "size": {
+        "w": 560,
+        "h": 572
+      },
+      "tags": [
+        "torso",
+        "3q"
+      ]
+    },
+    {
+      "file": "torso/back.png",
+      "source": "headless_shiba_hoodie_sprite_sheet.png",
+      "size": {
+        "w": 487,
+        "h": 528
+      },
+      "tags": [
+        "torso",
+        "back"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_01.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 245,
+        "h": 213
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_02.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 242,
+        "h": 219
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_03.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 239,
+        "h": 216
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_04.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 247,
+        "h": 216
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_01.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 151,
+        "h": 279
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_02.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 210,
+        "h": 272
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_03.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 223,
+        "h": 288
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_04.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 160,
+        "h": 280
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_05.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 210,
+        "h": 264
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_06.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 207,
+        "h": 274
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_relaxed_01.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 144,
+        "h": 287
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_side_02.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 249,
+        "h": 216
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_fist_03.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 200,
+        "h": 234
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_relaxed_04.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 144,
+        "h": 301
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_side_05.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 203,
+        "h": 285
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_pawpad_06.png",
+      "source": "chibi_doge_hoodie_arm_sprite_sheet.png",
+      "size": {
+        "w": 208,
+        "h": 269
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "hands/fist.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 402,
+        "h": 374
+      },
+      "tags": [
+        "hand",
+        "fist"
+      ]
+    },
+    {
+      "file": "hands/open_paw.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 401,
+        "h": 479
+      },
+      "tags": [
+        "hand",
+        "open_paw"
+      ]
+    },
+    {
+      "file": "hands/grab_claw.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 420,
+        "h": 407
+      },
+      "tags": [
+        "hand",
+        "grab_claw"
+      ]
+    },
+    {
+      "file": "hands/point.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 430,
+        "h": 365
+      },
+      "tags": [
+        "hand",
+        "point"
+      ]
+    },
+    {
+      "file": "hands/thumbs_up.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 346,
+        "h": 441
+      },
+      "tags": [
+        "hand",
+        "thumbs_up"
+      ]
+    },
+    {
+      "file": "hands/controller_hold.png",
+      "source": "shiba_gamer_paw_sprite_sheet.png",
+      "size": {
+        "w": 562,
+        "h": 319
+      },
+      "tags": [
+        "hand",
+        "controller_hold"
+      ]
+    },
+    {
+      "file": "waist/full_front.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 440,
+        "h": 422
+      },
+      "tags": [
+        "waist",
+        "front"
+      ]
+    },
+    {
+      "file": "waist/full_side.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 231,
+        "h": 409
+      },
+      "tags": [
+        "waist",
+        "side"
+      ]
+    },
+    {
+      "file": "waist/full_back.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 368,
+        "h": 420
+      },
+      "tags": [
+        "waist",
+        "back"
+      ]
+    },
+    {
+      "file": "legs/thigh_front.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 285,
+        "h": 182
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_angled_left.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 277,
+        "h": 431
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_bent_center.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 249,
+        "h": 439
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_angled_right.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 212,
+        "h": 429
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_crouched.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 233,
+        "h": 433
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "shins/shin_01.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 164,
+        "h": 254
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_02.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 167,
+        "h": 257
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_03.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 176,
+        "h": 261
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_04.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 170,
+        "h": 254
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_05.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 148,
+        "h": 265
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "feet/front_left.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 147,
+        "h": 160
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/front_right.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 192,
+        "h": 163
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/side.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 265,
+        "h": 156
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/back.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 164,
+        "h": 147
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/tilted.png",
+      "source": "shiba_inu_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 224,
+        "h": 176
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "props/controller.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 545,
+        "h": 318
+      },
+      "tags": [
+        "prop",
+        "controller"
+      ]
+    },
+    {
+      "file": "props/coffee_mug.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 329,
+        "h": 443
+      },
+      "tags": [
+        "prop",
+        "mug"
+      ]
+    },
+    {
+      "file": "props/headset.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 472,
+        "h": 493
+      },
+      "tags": [
+        "prop",
+        "headset"
+      ]
+    },
+    {
+      "file": "props/keyboard.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 578,
+        "h": 282
+      },
+      "tags": [
+        "prop",
+        "keyboard"
+      ]
+    },
+    {
+      "file": "props/smartphone.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 280,
+        "h": 288
+      },
+      "tags": [
+        "prop",
+        "smartphone"
+      ]
+    },
+    {
+      "file": "props/backpack.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 434,
+        "h": 590
+      },
+      "tags": [
+        "prop",
+        "backpack"
+      ]
+    },
+    {
+      "file": "props/baseball_cap.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 400,
+        "h": 260
+      },
+      "tags": [
+        "prop",
+        "cap"
+      ]
+    },
+    {
+      "file": "props/beanie.png",
+      "source": "shiba_gamer_accessory_sprite_sheet.png",
+      "size": {
+        "w": 400,
+        "h": 296
+      },
+      "tags": [
+        "prop",
+        "beanie"
+      ]
+    }
+  ]
+}
