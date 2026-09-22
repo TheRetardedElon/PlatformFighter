@@ -1,0 +1,1478 @@
+{
+  "character": "monk_gunslinger",
+  "game": "Platform Fighter",
+  "asset_count": 84,
+  "assets": [
+    {
+      "file": "head/head_base.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        45,
+        45,
+        435,
+        450
+      ],
+      "size": {
+        "w": 379,
+        "h": 392
+      },
+      "tags": [
+        "head",
+        "base"
+      ]
+    },
+    {
+      "file": "head/lower_face_jaw.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        90,
+        435,
+        380,
+        575
+      ],
+      "size": {
+        "w": 269,
+        "h": 140
+      },
+      "tags": [
+        "head",
+        "jaw"
+      ]
+    },
+    {
+      "file": "hair/hair_back.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        455,
+        55,
+        900,
+        520
+      ],
+      "size": {
+        "w": 417,
+        "h": 446
+      },
+      "tags": [
+        "hair",
+        "back"
+      ]
+    },
+    {
+      "file": "hair/hair_front_main.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        920,
+        55,
+        1435,
+        525
+      ],
+      "size": {
+        "w": 469,
+        "h": 430
+      },
+      "tags": [
+        "hair",
+        "front"
+      ]
+    },
+    {
+      "file": "hair/hair_front_alt.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        20,
+        555,
+        505,
+        1005
+      ],
+      "size": {
+        "w": 463,
+        "h": 450
+      },
+      "tags": [
+        "hair",
+        "front",
+        "alternate"
+      ]
+    },
+    {
+      "file": "accessories/red_scarf.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        540,
+        580,
+        1000,
+        1000
+      ],
+      "size": {
+        "w": 450,
+        "h": 375
+      },
+      "tags": [
+        "accessory",
+        "scarf"
+      ]
+    },
+    {
+      "file": "accessories/prayer_beads.png",
+      "source_sheet": "monk_gunslinger_character_asset_sheet.png",
+      "source_box": [
+        1000,
+        575,
+        1415,
+        1035
+      ],
+      "size": {
+        "w": 354,
+        "h": 418
+      },
+      "tags": [
+        "accessory",
+        "beads"
+      ]
+    },
+    {
+      "file": "eyes/neutral.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        35,
+        95,
+        675,
+        370
+      ],
+      "size": {
+        "w": 616,
+        "h": 248
+      },
+      "tags": [
+        "eyes",
+        "neutral"
+      ]
+    },
+    {
+      "file": "eyes/angry.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        740,
+        95,
+        1400,
+        375
+      ],
+      "size": {
+        "w": 620,
+        "h": 252
+      },
+      "tags": [
+        "eyes",
+        "angry"
+      ]
+    },
+    {
+      "file": "eyes/look_side.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        35,
+        395,
+        675,
+        675
+      ],
+      "size": {
+        "w": 615,
+        "h": 250
+      },
+      "tags": [
+        "eyes",
+        "look_side"
+      ]
+    },
+    {
+      "file": "eyes/closed.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        740,
+        395,
+        1400,
+        680
+      ],
+      "size": {
+        "w": 623,
+        "h": 248
+      },
+      "tags": [
+        "eyes",
+        "closed"
+      ]
+    },
+    {
+      "file": "eyes/tired.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        35,
+        680,
+        675,
+        980
+      ],
+      "size": {
+        "w": 616,
+        "h": 251
+      },
+      "tags": [
+        "eyes",
+        "tired"
+      ]
+    },
+    {
+      "file": "eyes/hit_bruised.png",
+      "source_sheet": "anime_eye_expression_reference_sheet.png",
+      "source_box": [
+        740,
+        680,
+        1400,
+        985
+      ],
+      "size": {
+        "w": 622,
+        "h": 249
+      },
+      "tags": [
+        "eyes",
+        "hit_bruised"
+      ]
+    },
+    {
+      "file": "mouth/neutral.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        10,
+        155,
+        470,
+        445
+      ],
+      "size": {
+        "w": 460,
+        "h": 268
+      },
+      "tags": [
+        "mouth",
+        "neutral"
+      ]
+    },
+    {
+      "file": "mouth/smirk.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        475,
+        155,
+        955,
+        445
+      ],
+      "size": {
+        "w": 470,
+        "h": 269
+      },
+      "tags": [
+        "mouth",
+        "smirk"
+      ]
+    },
+    {
+      "file": "mouth/talk.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        960,
+        155,
+        1435,
+        445
+      ],
+      "size": {
+        "w": 475,
+        "h": 269
+      },
+      "tags": [
+        "mouth",
+        "talk"
+      ]
+    },
+    {
+      "file": "mouth/shout.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        10,
+        565,
+        470,
+        850
+      ],
+      "size": {
+        "w": 460,
+        "h": 271
+      },
+      "tags": [
+        "mouth",
+        "shout"
+      ]
+    },
+    {
+      "file": "mouth/grimace.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        475,
+        565,
+        955,
+        850
+      ],
+      "size": {
+        "w": 480,
+        "h": 269
+      },
+      "tags": [
+        "mouth",
+        "grimace"
+      ]
+    },
+    {
+      "file": "mouth/ko_tongue.png",
+      "source_sheet": "anime_character_mouth_expression_sprite_sheet.png",
+      "source_box": [
+        960,
+        565,
+        1435,
+        850
+      ],
+      "size": {
+        "w": 474,
+        "h": 269
+      },
+      "tags": [
+        "mouth",
+        "ko_tongue"
+      ]
+    },
+    {
+      "file": "torso/front.png",
+      "source_sheet": "monk_warrior_outfit_turnaround_sheet.png",
+      "source_box": [
+        0,
+        205,
+        475,
+        855
+      ],
+      "size": {
+        "w": 475,
+        "h": 637
+      },
+      "tags": [
+        "torso",
+        "front"
+      ]
+    },
+    {
+      "file": "torso/three_quarter.png",
+      "source_sheet": "monk_warrior_outfit_turnaround_sheet.png",
+      "source_box": [
+        475,
+        205,
+        970,
+        855
+      ],
+      "size": {
+        "w": 471,
+        "h": 627
+      },
+      "tags": [
+        "torso",
+        "three_quarter"
+      ]
+    },
+    {
+      "file": "torso/back.png",
+      "source_sheet": "monk_warrior_outfit_turnaround_sheet.png",
+      "source_box": [
+        945,
+        205,
+        1448,
+        855
+      ],
+      "size": {
+        "w": 501,
+        "h": 638
+      },
+      "tags": [
+        "torso",
+        "back"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_01.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        70,
+        15,
+        365,
+        310
+      ],
+      "size": {
+        "w": 231,
+        "h": 282
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_02.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        395,
+        15,
+        705,
+        315
+      ],
+      "size": {
+        "w": 239,
+        "h": 277
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_03.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        735,
+        15,
+        1035,
+        315
+      ],
+      "size": {
+        "w": 233,
+        "h": 286
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulders/shoulder_04.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        1030,
+        15,
+        1420,
+        320
+      ],
+      "size": {
+        "w": 326,
+        "h": 295
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_01.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        35,
+        315,
+        235,
+        650
+      ],
+      "size": {
+        "w": 192,
+        "h": 314
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_02.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        245,
+        315,
+        480,
+        650
+      ],
+      "size": {
+        "w": 229,
+        "h": 312
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_03.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        480,
+        315,
+        715,
+        650
+      ],
+      "size": {
+        "w": 183,
+        "h": 314
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_04.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        710,
+        315,
+        945,
+        650
+      ],
+      "size": {
+        "w": 211,
+        "h": 317
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_05.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        940,
+        315,
+        1180,
+        650
+      ],
+      "size": {
+        "w": 217,
+        "h": 319
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_06.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        1170,
+        315,
+        1430,
+        650
+      ],
+      "size": {
+        "w": 239,
+        "h": 313
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_01.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        25,
+        640,
+        235,
+        1060
+      ],
+      "size": {
+        "w": 190,
+        "h": 392
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_02.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        230,
+        640,
+        480,
+        1060
+      ],
+      "size": {
+        "w": 250,
+        "h": 381
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_03.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        475,
+        640,
+        720,
+        1060
+      ],
+      "size": {
+        "w": 166,
+        "h": 347
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_04.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        710,
+        640,
+        950,
+        1060
+      ],
+      "size": {
+        "w": 183,
+        "h": 382
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_05.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        940,
+        640,
+        1170,
+        1060
+      ],
+      "size": {
+        "w": 212,
+        "h": 380
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_06.png",
+      "source_sheet": "modular_monk_gunslinger_arm_set.png",
+      "source_box": [
+        1160,
+        640,
+        1435,
+        1060
+      ],
+      "size": {
+        "w": 254,
+        "h": 360
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "hands/fist.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        25,
+        70,
+        485,
+        365
+      ],
+      "size": {
+        "w": 334,
+        "h": 235
+      },
+      "tags": [
+        "hand",
+        "fist"
+      ]
+    },
+    {
+      "file": "hands/open_palm.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        500,
+        15,
+        945,
+        370
+      ],
+      "size": {
+        "w": 312,
+        "h": 346
+      },
+      "tags": [
+        "hand",
+        "open_palm"
+      ]
+    },
+    {
+      "file": "hands/grab.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        930,
+        60,
+        1435,
+        370
+      ],
+      "size": {
+        "w": 418,
+        "h": 272
+      },
+      "tags": [
+        "hand",
+        "grab"
+      ]
+    },
+    {
+      "file": "hands/point.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        20,
+        340,
+        490,
+        660
+      ],
+      "size": {
+        "w": 398,
+        "h": 230
+      },
+      "tags": [
+        "hand",
+        "point"
+      ]
+    },
+    {
+      "file": "hands/finger_gun.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        485,
+        335,
+        955,
+        665
+      ],
+      "size": {
+        "w": 421,
+        "h": 309
+      },
+      "tags": [
+        "hand",
+        "finger_gun"
+      ]
+    },
+    {
+      "file": "hands/thumbs_up.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        940,
+        325,
+        1435,
+        665
+      ],
+      "size": {
+        "w": 432,
+        "h": 313
+      },
+      "tags": [
+        "hand",
+        "thumbs_up"
+      ]
+    },
+    {
+      "file": "hands/gun_grip_single.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        20,
+        635,
+        485,
+        1065
+      ],
+      "size": {
+        "w": 449,
+        "h": 285
+      },
+      "tags": [
+        "hand",
+        "gun_grip_single"
+      ]
+    },
+    {
+      "file": "hands/gun_grip_two_hand.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        470,
+        635,
+        980,
+        1065
+      ],
+      "size": {
+        "w": 508,
+        "h": 284
+      },
+      "tags": [
+        "hand",
+        "gun_grip_two_hand"
+      ]
+    },
+    {
+      "file": "hands/gun_grip_angled.png",
+      "source_sheet": "monk_gunslinger_hand_asset_sheet.png",
+      "source_box": [
+        970,
+        610,
+        1435,
+        1065
+      ],
+      "size": {
+        "w": 450,
+        "h": 437
+      },
+      "tags": [
+        "hand",
+        "gun_grip_angled"
+      ]
+    },
+    {
+      "file": "waist/waist_01.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        0,
+        0,
+        295,
+        330
+      ],
+      "size": {
+        "w": 276,
+        "h": 312
+      },
+      "tags": [
+        "waist"
+      ]
+    },
+    {
+      "file": "waist/waist_02.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        285,
+        0,
+        580,
+        330
+      ],
+      "size": {
+        "w": 264,
+        "h": 311
+      },
+      "tags": [
+        "waist"
+      ]
+    },
+    {
+      "file": "waist/waist_03.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        565,
+        0,
+        865,
+        330
+      ],
+      "size": {
+        "w": 294,
+        "h": 307
+      },
+      "tags": [
+        "waist"
+      ]
+    },
+    {
+      "file": "waist/waist_04.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        850,
+        0,
+        1140,
+        330
+      ],
+      "size": {
+        "w": 242,
+        "h": 312
+      },
+      "tags": [
+        "waist"
+      ]
+    },
+    {
+      "file": "waist/waist_05.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1125,
+        0,
+        1448,
+        330
+      ],
+      "size": {
+        "w": 303,
+        "h": 309
+      },
+      "tags": [
+        "waist"
+      ]
+    },
+    {
+      "file": "legs/thigh_01.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        0,
+        315,
+        300,
+        610
+      ],
+      "size": {
+        "w": 273,
+        "h": 260
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_02.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        285,
+        315,
+        585,
+        610
+      ],
+      "size": {
+        "w": 284,
+        "h": 293
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_03.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        570,
+        315,
+        865,
+        610
+      ],
+      "size": {
+        "w": 279,
+        "h": 257
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_04.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        850,
+        315,
+        1145,
+        610
+      ],
+      "size": {
+        "w": 274,
+        "h": 293
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_05.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1130,
+        315,
+        1448,
+        610
+      ],
+      "size": {
+        "w": 290,
+        "h": 262
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "shins/shin_01.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        0,
+        590,
+        181,
+        850
+      ],
+      "size": {
+        "w": 129,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_02.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        181,
+        590,
+        362,
+        850
+      ],
+      "size": {
+        "w": 129,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_03.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        362,
+        590,
+        543,
+        850
+      ],
+      "size": {
+        "w": 133,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_04.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        543,
+        590,
+        724,
+        850
+      ],
+      "size": {
+        "w": 128,
+        "h": 231
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_05.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        724,
+        590,
+        905,
+        850
+      ],
+      "size": {
+        "w": 129,
+        "h": 232
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_06.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        905,
+        590,
+        1086,
+        850
+      ],
+      "size": {
+        "w": 153,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_07.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1086,
+        590,
+        1267,
+        850
+      ],
+      "size": {
+        "w": 132,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_08.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1267,
+        590,
+        1448,
+        850
+      ],
+      "size": {
+        "w": 129,
+        "h": 260
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "feet/foot_01.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        0,
+        835,
+        181,
+        1086
+      ],
+      "size": {
+        "w": 138,
+        "h": 206
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_02.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        181,
+        835,
+        362,
+        1086
+      ],
+      "size": {
+        "w": 139,
+        "h": 204
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_03.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        362,
+        835,
+        543,
+        1086
+      ],
+      "size": {
+        "w": 166,
+        "h": 193
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_04.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        543,
+        835,
+        724,
+        1086
+      ],
+      "size": {
+        "w": 163,
+        "h": 204
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_05.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        724,
+        835,
+        905,
+        1086
+      ],
+      "size": {
+        "w": 168,
+        "h": 204
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_06.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        905,
+        835,
+        1086,
+        1086
+      ],
+      "size": {
+        "w": 161,
+        "h": 193
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_07.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1086,
+        835,
+        1267,
+        1086
+      ],
+      "size": {
+        "w": 141,
+        "h": 204
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_08.png",
+      "source_sheet": "modular_rogue_outfit_asset_sheet.png",
+      "source_box": [
+        1267,
+        835,
+        1448,
+        1086
+      ],
+      "size": {
+        "w": 140,
+        "h": 206
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "accessories/prayer_beads_large.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        20,
+        15,
+        335,
+        405
+      ],
+      "size": {
+        "w": 280,
+        "h": 361
+      },
+      "tags": [
+        "accessory",
+        "beads"
+      ]
+    },
+    {
+      "file": "accessories/scarf_front.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        330,
+        10,
+        765,
+        410
+      ],
+      "size": {
+        "w": 378,
+        "h": 315
+      },
+      "tags": [
+        "accessory",
+        "scarf"
+      ]
+    },
+    {
+      "file": "accessories/scarf_trailing.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        755,
+        10,
+        1135,
+        410
+      ],
+      "size": {
+        "w": 380,
+        "h": 370
+      },
+      "tags": [
+        "accessory",
+        "scarf"
+      ]
+    },
+    {
+      "file": "accessories/bead_bracelet.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        1120,
+        10,
+        1445,
+        410
+      ],
+      "size": {
+        "w": 274,
+        "h": 382
+      },
+      "tags": [
+        "accessory",
+        "bracelet"
+      ]
+    },
+    {
+      "file": "weapons/pistol.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        20,
+        385,
+        445,
+        675
+      ],
+      "size": {
+        "w": 421,
+        "h": 290
+      },
+      "tags": [
+        "weapon",
+        "pistol"
+      ]
+    },
+    {
+      "file": "weapons/revolver.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        405,
+        385,
+        920,
+        685
+      ],
+      "size": {
+        "w": 500,
+        "h": 247
+      },
+      "tags": [
+        "weapon",
+        "revolver"
+      ]
+    },
+    {
+      "file": "weapons/dual_pistols_crossed.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        930,
+        380,
+        1435,
+        690
+      ],
+      "size": {
+        "w": 365,
+        "h": 310
+      },
+      "tags": [
+        "weapon",
+        "dual_pistols"
+      ]
+    },
+    {
+      "file": "equipment/holster.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        25,
+        645,
+        385,
+        1065
+      ],
+      "size": {
+        "w": 337,
+        "h": 408
+      },
+      "tags": [
+        "equipment",
+        "holster"
+      ]
+    },
+    {
+      "file": "equipment/belt_pouches.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        375,
+        655,
+        910,
+        1045
+      ],
+      "size": {
+        "w": 495,
+        "h": 376
+      },
+      "tags": [
+        "equipment",
+        "belt"
+      ]
+    },
+    {
+      "file": "accessories/charm.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        900,
+        635,
+        1135,
+        1065
+      ],
+      "size": {
+        "w": 175,
+        "h": 423
+      },
+      "tags": [
+        "accessory",
+        "charm"
+      ]
+    },
+    {
+      "file": "equipment/canister.png",
+      "source_sheet": "monk_gunslinger_weapon_and_accessory_sheet.png",
+      "source_box": [
+        1120,
+        635,
+        1435,
+        1065
+      ],
+      "size": {
+        "w": 299,
+        "h": 374
+      },
+      "tags": [
+        "equipment",
+        "canister"
+      ]
+    }
+  ]
+}
