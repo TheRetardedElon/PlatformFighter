@@ -1,0 +1,436 @@
+{
+  "pack": "Platform Fighter Base UI Exact Individual Pack v2",
+  "asset_count": 33,
+  "source_sheet": "neon_platform_fighter_ui_sprite_sheet.png",
+  "assets": [
+    {
+      "file": "branding/platform_fighter_logo_full.png",
+      "box": [
+        28,
+        15,
+        686,
+        278
+      ],
+      "size": [
+        658,
+        263
+      ]
+    },
+    {
+      "file": "branding/platform_fighter_pf_mark.png",
+      "box": [
+        670,
+        28,
+        922,
+        278
+      ],
+      "size": [
+        252,
+        250
+      ]
+    },
+    {
+      "file": "bars/top_bar_dark.png",
+      "box": [
+        954,
+        38,
+        1420,
+        112
+      ],
+      "size": [
+        466,
+        73
+      ]
+    },
+    {
+      "file": "bars/top_bar_blue.png",
+      "box": [
+        954,
+        116,
+        1420,
+        191
+      ],
+      "size": [
+        442,
+        75
+      ]
+    },
+    {
+      "file": "bars/top_bar_red.png",
+      "box": [
+        950,
+        194,
+        1420,
+        273
+      ],
+      "size": [
+        443,
+        79
+      ]
+    },
+    {
+      "file": "buttons/nav/nav_left_dark.png",
+      "box": [
+        30,
+        281,
+        370,
+        340
+      ],
+      "size": [
+        339,
+        59
+      ]
+    },
+    {
+      "file": "buttons/nav/nav_left_blue.png",
+      "box": [
+        30,
+        340,
+        370,
+        400
+      ],
+      "size": [
+        340,
+        60
+      ]
+    },
+    {
+      "file": "buttons/nav/nav_left_red.png",
+      "box": [
+        30,
+        405,
+        370,
+        473
+      ],
+      "size": [
+        340,
+        68
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_dark_fx_blue.png",
+      "box": [
+        368,
+        280,
+        632,
+        365
+      ],
+      "size": [
+        252,
+        82
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_blue_glow.png",
+      "box": [
+        629,
+        277,
+        896,
+        365
+      ],
+      "size": [
+        267,
+        88
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_blue_round.png",
+      "box": [
+        894,
+        280,
+        1143,
+        365
+      ],
+      "size": [
+        249,
+        79
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_dark_fx_red.png",
+      "box": [
+        368,
+        389,
+        632,
+        474
+      ],
+      "size": [
+        264,
+        85
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_red_glow.png",
+      "box": [
+        629,
+        389,
+        896,
+        474
+      ],
+      "size": [
+        267,
+        85
+      ]
+    },
+    {
+      "file": "buttons/panels/panel_medium_red_plain.png",
+      "box": [
+        894,
+        389,
+        1143,
+        474
+      ],
+      "size": [
+        249,
+        85
+      ]
+    },
+    {
+      "file": "buttons/nav/button_small_dark.png",
+      "box": [
+        1134,
+        281,
+        1420,
+        342
+      ],
+      "size": [
+        284,
+        56
+      ]
+    },
+    {
+      "file": "buttons/nav/button_small_blue.png",
+      "box": [
+        1134,
+        344,
+        1420,
+        406
+      ],
+      "size": [
+        285,
+        62
+      ]
+    },
+    {
+      "file": "buttons/pills/pill_dark.png",
+      "box": [
+        1134,
+        399,
+        1237,
+        448
+      ],
+      "size": [
+        103,
+        49
+      ]
+    },
+    {
+      "file": "buttons/pills/pill_blue.png",
+      "box": [
+        1240,
+        399,
+        1420,
+        448
+      ],
+      "size": [
+        178,
+        49
+      ]
+    },
+    {
+      "file": "buttons/pills/pill_red.png",
+      "box": [
+        1134,
+        454,
+        1237,
+        503
+      ],
+      "size": [
+        103,
+        49
+      ]
+    },
+    {
+      "file": "buttons/pills/pill_orange.png",
+      "box": [
+        1240,
+        454,
+        1420,
+        503
+      ],
+      "size": [
+        180,
+        49
+      ]
+    },
+    {
+      "file": "banners/slash_banner_blue.png",
+      "box": [
+        20,
+        505,
+        739,
+        614
+      ],
+      "size": [
+        710,
+        109
+      ]
+    },
+    {
+      "file": "banners/slash_banner_red.png",
+      "box": [
+        743,
+        505,
+        1420,
+        614
+      ],
+      "size": [
+        677,
+        109
+      ]
+    },
+    {
+      "file": "frames/portrait_frame_blue.png",
+      "box": [
+        22,
+        618,
+        163,
+        829
+      ],
+      "size": [
+        140,
+        211
+      ]
+    },
+    {
+      "file": "frames/portrait_frame_red.png",
+      "box": [
+        164,
+        618,
+        287,
+        829
+      ],
+      "size": [
+        123,
+        211
+      ]
+    },
+    {
+      "file": "frames/stage_frame_blue.png",
+      "box": [
+        283,
+        633,
+        533,
+        824
+      ],
+      "size": [
+        250,
+        191
+      ]
+    },
+    {
+      "file": "frames/stage_frame_red.png",
+      "box": [
+        526,
+        633,
+        770,
+        824
+      ],
+      "size": [
+        244,
+        191
+      ]
+    },
+    {
+      "file": "frames/square_frame_blue.png",
+      "box": [
+        768,
+        633,
+        910,
+        814
+      ],
+      "size": [
+        142,
+        166
+      ]
+    },
+    {
+      "file": "panels/panel_medium_blue.png",
+      "box": [
+        905,
+        632,
+        1110,
+        826
+      ],
+      "size": [
+        205,
+        193
+      ]
+    },
+    {
+      "file": "panels/panel_wide_blue.png",
+      "box": [
+        1087,
+        620,
+        1420,
+        827
+      ],
+      "size": [
+        333,
+        207
+      ]
+    },
+    {
+      "file": "dialogs/modal_dialog_blue_red_buttons.png",
+      "box": [
+        20,
+        791,
+        466,
+        1040
+      ],
+      "size": [
+        441,
+        249
+      ]
+    },
+    {
+      "file": "dialogs/menu_panel_red_blue_three_slots.png",
+      "box": [
+        475,
+        790,
+        882,
+        1040
+      ],
+      "size": [
+        404,
+        250
+      ]
+    },
+    {
+      "file": "panels/settings_bar_with_gear.png",
+      "box": [
+        884,
+        790,
+        1420,
+        909
+      ],
+      "size": [
+        536,
+        119
+      ]
+    },
+    {
+      "file": "panels/search_bar_with_magnifier.png",
+      "box": [
+        884,
+        915,
+        1420,
+        1028
+      ],
+      "size": [
+        536,
+        113
+      ]
+    }
+  ]
+}
