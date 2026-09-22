@@ -1,0 +1,792 @@
+{
+  "character": "donald_trump",
+  "asset_count": 68,
+  "assets": [
+    {
+      "file": "head/head_base.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 469,
+        "h": 526
+      },
+      "tags": [
+        "head",
+        "base"
+      ]
+    },
+    {
+      "file": "head/lower_face_jaw.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 406,
+        "h": 269
+      },
+      "tags": [
+        "head",
+        "jaw",
+        "mouth_base"
+      ]
+    },
+    {
+      "file": "hair/hair_back.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 404,
+        "h": 473
+      },
+      "tags": [
+        "hair",
+        "back"
+      ]
+    },
+    {
+      "file": "hair/hair_front_main.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 502,
+        "h": 373
+      },
+      "tags": [
+        "hair",
+        "front"
+      ]
+    },
+    {
+      "file": "hair/hair_front_alt.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 591,
+        "h": 409
+      },
+      "tags": [
+        "hair",
+        "front",
+        "alternate"
+      ]
+    },
+    {
+      "file": "accessories/flag_pin.png",
+      "source_sheet": "cartoon_head_and_hair_asset_sheet.png",
+      "size": {
+        "w": 177,
+        "h": 192
+      },
+      "tags": [
+        "prop",
+        "accessory"
+      ]
+    },
+    {
+      "file": "eyes/neutral.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 454,
+        "h": 212
+      },
+      "tags": [
+        "eyes",
+        "neutral"
+      ]
+    },
+    {
+      "file": "eyes/look_right.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 434,
+        "h": 230
+      },
+      "tags": [
+        "eyes",
+        "look_right"
+      ]
+    },
+    {
+      "file": "eyes/angry.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 432,
+        "h": 219
+      },
+      "tags": [
+        "eyes",
+        "angry"
+      ]
+    },
+    {
+      "file": "eyes/down_tired.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 434,
+        "h": 233
+      },
+      "tags": [
+        "eyes",
+        "down_tired"
+      ]
+    },
+    {
+      "file": "eyes/hit_bruised.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 430,
+        "h": 230
+      },
+      "tags": [
+        "eyes",
+        "hit_bruised"
+      ]
+    },
+    {
+      "file": "eyes/ko_dead.png",
+      "source_sheet": "cartoon_eye_expression_sprite_sheet.png",
+      "size": {
+        "w": 427,
+        "h": 211
+      },
+      "tags": [
+        "eyes",
+        "ko_dead"
+      ]
+    },
+    {
+      "file": "mouth/neutral.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 422,
+        "h": 302
+      },
+      "tags": [
+        "mouth",
+        "neutral"
+      ]
+    },
+    {
+      "file": "mouth/smile.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 425,
+        "h": 318
+      },
+      "tags": [
+        "mouth",
+        "smile"
+      ]
+    },
+    {
+      "file": "mouth/talk.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 422,
+        "h": 320
+      },
+      "tags": [
+        "mouth",
+        "talk"
+      ]
+    },
+    {
+      "file": "mouth/shout.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 429,
+        "h": 347
+      },
+      "tags": [
+        "mouth",
+        "shout"
+      ]
+    },
+    {
+      "file": "mouth/grimace_hit.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 419,
+        "h": 315
+      },
+      "tags": [
+        "mouth",
+        "grimace_hit"
+      ]
+    },
+    {
+      "file": "mouth/ko_tongue_out.png",
+      "source_sheet": "cartoon_mouth_expression_sprite_sheet.png",
+      "size": {
+        "w": 432,
+        "h": 324
+      },
+      "tags": [
+        "mouth",
+        "ko_tongue_out"
+      ]
+    },
+    {
+      "file": "torso/front.png",
+      "source_sheet": "headless_cartoon_suit_torso_sprite_sheet.png",
+      "size": {
+        "w": 521,
+        "h": 408
+      },
+      "tags": [
+        "torso",
+        "front"
+      ]
+    },
+    {
+      "file": "torso/three_quarter.png",
+      "source_sheet": "headless_cartoon_suit_torso_sprite_sheet.png",
+      "size": {
+        "w": 441,
+        "h": 421
+      },
+      "tags": [
+        "torso",
+        "3q"
+      ]
+    },
+    {
+      "file": "torso/back.png",
+      "source_sheet": "headless_cartoon_suit_torso_sprite_sheet.png",
+      "size": {
+        "w": 475,
+        "h": 422
+      },
+      "tags": [
+        "torso",
+        "back"
+      ]
+    },
+    {
+      "file": "shoulder/shoulder_01.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 235,
+        "h": 227
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulder/shoulder_02.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 230,
+        "h": 224
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulder/shoulder_03.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 246,
+        "h": 208
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "shoulder/shoulder_04.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 248,
+        "h": 212
+      },
+      "tags": [
+        "shoulder"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_01.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 161,
+        "h": 335
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_02.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 181,
+        "h": 327
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_03.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 176,
+        "h": 329
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_04.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 198,
+        "h": 342
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_05.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 200,
+        "h": 326
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "upper_arm/upper_arm_06.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 163,
+        "h": 330
+      },
+      "tags": [
+        "upper_arm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_01.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 130,
+        "h": 253
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_02.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 147,
+        "h": 276
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_03.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 176,
+        "h": 255
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_04.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 182,
+        "h": 237
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_05.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 187,
+        "h": 260
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_06.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 205,
+        "h": 273
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "forearm/forearm_07.png",
+      "source_sheet": "cartoon_suit_arm_sprite_sheet.png",
+      "size": {
+        "w": 127,
+        "h": 245
+      },
+      "tags": [
+        "forearm"
+      ]
+    },
+    {
+      "file": "hands/fist.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 423,
+        "h": 341
+      },
+      "tags": [
+        "hand",
+        "fist"
+      ]
+    },
+    {
+      "file": "hands/open_palm.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 397,
+        "h": 412
+      },
+      "tags": [
+        "hand",
+        "open_palm"
+      ]
+    },
+    {
+      "file": "hands/grab_claw.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 437,
+        "h": 358
+      },
+      "tags": [
+        "hand",
+        "grab_claw"
+      ]
+    },
+    {
+      "file": "hands/point.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 488,
+        "h": 308
+      },
+      "tags": [
+        "hand",
+        "point"
+      ]
+    },
+    {
+      "file": "hands/thumbs_up.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 349,
+        "h": 358
+      },
+      "tags": [
+        "hand",
+        "thumbs_up"
+      ]
+    },
+    {
+      "file": "hands/presentation.png",
+      "source_sheet": "cartoon_hand_gesture_sprite_sheet.png",
+      "size": {
+        "w": 453,
+        "h": 347
+      },
+      "tags": [
+        "hand",
+        "presentation"
+      ]
+    },
+    {
+      "file": "waist/full_front.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 414,
+        "h": 391
+      },
+      "tags": [
+        "waist",
+        "front"
+      ]
+    },
+    {
+      "file": "waist/full_side.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 218,
+        "h": 390
+      },
+      "tags": [
+        "waist",
+        "side"
+      ]
+    },
+    {
+      "file": "waist/full_back.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 403,
+        "h": 396
+      },
+      "tags": [
+        "waist",
+        "back"
+      ]
+    },
+    {
+      "file": "legs/thigh_01.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 184,
+        "h": 208
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_02.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 187,
+        "h": 205
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_03.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 174,
+        "h": 209
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_04.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 172,
+        "h": 204
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "legs/thigh_05.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 181,
+        "h": 205
+      },
+      "tags": [
+        "thigh"
+      ]
+    },
+    {
+      "file": "shins/shin_01.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 148,
+        "h": 225
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_02.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 149,
+        "h": 225
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_03.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 147,
+        "h": 225
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_04.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 141,
+        "h": 225
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "shins/shin_05.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 147,
+        "h": 226
+      },
+      "tags": [
+        "shin"
+      ]
+    },
+    {
+      "file": "feet/foot_01_front_left.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 157,
+        "h": 147
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_02_front_right.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 164,
+        "h": 150
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_03_side.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 245,
+        "h": 121
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_04_back_left.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 163,
+        "h": 153
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "feet/foot_05_back_right.png",
+      "source_sheet": "modular_navy_suit_lower_body_sprite_sheet.png",
+      "size": {
+        "w": 159,
+        "h": 152
+      },
+      "tags": [
+        "foot"
+      ]
+    },
+    {
+      "file": "props/microphone.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 249,
+        "h": 345
+      },
+      "tags": [
+        "prop",
+        "microphone"
+      ]
+    },
+    {
+      "file": "props/smartphone.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 206,
+        "h": 332
+      },
+      "tags": [
+        "prop",
+        "smartphone"
+      ]
+    },
+    {
+      "file": "props/podium.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 495,
+        "h": 484
+      },
+      "tags": [
+        "prop",
+        "podium"
+      ]
+    },
+    {
+      "file": "props/briefcase_money.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 401,
+        "h": 390
+      },
+      "tags": [
+        "prop",
+        "briefcase_money"
+      ]
+    },
+    {
+      "file": "props/red_tie.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 158,
+        "h": 394
+      },
+      "tags": [
+        "prop",
+        "red_tie"
+      ]
+    },
+    {
+      "file": "props/coffee_mug.png",
+      "source_sheet": "cartoon_political_props_spritesheet.png",
+      "size": {
+        "w": 382,
+        "h": 352
+      },
+      "tags": [
+        "prop",
+        "coffee_mug"
+      ]
+    }
+  ]
+}
